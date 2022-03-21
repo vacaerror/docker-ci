@@ -9,13 +9,10 @@
 
 version: 2.1
 
-workflows:
-  check-build:
-    jobs:
+
 
 test:
   override:    
     - mocha
 
-jobs:
-  build-job:
+
